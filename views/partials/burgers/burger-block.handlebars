@@ -1,7 +1,9 @@
-<li>
-	{{burger_name}}
+<li class="list-group-item bg-dark inline-headers">
+	<span class="lead">
+		{{burger_name}}
+	</span>
 	{{#if devoured}}
-	<button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
+	<button class="change-devoured btn btn-outline-warning" data-id="{{id}}" data-newdevoured="{{devoured}}">
 		eat!
 	</button>
 	{{/if}}
